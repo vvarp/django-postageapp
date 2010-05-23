@@ -1,0 +1,10 @@
+*.pyc
+.DS_Store
+
+bin/
+develop-eggs/
+downloads/
+example/
+eggs/
+parts/
+
