@@ -12,6 +12,7 @@ setup(
     author_email='maciek@id43.net',
     url='http://bitbucket.org/vvarp/django-postageapp',
     packages=find_packages(),
+    package_data={'': ['README.rst',]},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
