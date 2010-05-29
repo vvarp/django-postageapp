@@ -11,7 +11,7 @@ class PostageappEmailBackend(BaseEmailBackend):
     
     def __init__(self, fail_silently=False, **kwargs):
         self.fail_silently = fail_silently
-        self.postageapp_endpoint = "http://api.postageapp.com/v.1.0/send_message.json"
+        self.postageapp_endpoint = "https://api.postageapp.com/v.1.0/send_message.json"
         
         if not getattr(settings, "EMAIL_POSTAGEAPP_API_KEY"):
             raise ImproperlyConfigured("You need to provide EMAIL_POSTAGEAPP_API_KEY in your Django settings file.")
