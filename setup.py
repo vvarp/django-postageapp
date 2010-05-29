@@ -5,12 +5,12 @@ README_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.r
 
 setup(
     name='django-postageapp',
-    version='0.1',
+    version='0.1.1',
     description='Postageapp.com email backend for use with Django 1.2+',
     long_description=open(README_PATH).read(),
     author='Maciek Szczesniak',
     author_email='maciek@id43.net',
-    url='http://bitbucket.org/vvarp/django-postageapp',
+    url='http://github.com/vvarp/django-postageapp',
     packages=find_packages(),
     package_data={'': ['README.rst',]},
     classifiers=[
